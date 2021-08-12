@@ -13,7 +13,6 @@ import {
 } from "./TimeLineStyles";
 import {
   Section,
-  SectionDivider,
   SectionText,
   SectionTitle,
 } from "../../styles/GlobalComponents";

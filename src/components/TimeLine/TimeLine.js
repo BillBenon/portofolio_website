@@ -73,7 +73,7 @@ const Timeline = () => {
         not hestitate to contact me if you need to tell me something or consider
         buying me a coffee.
       </SectionText>
-      <CarouselContainer ref={carouselRef}>
+      <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
           {TimeLineData.map((item, index) => (
             <CarouselMobileScrollNode
